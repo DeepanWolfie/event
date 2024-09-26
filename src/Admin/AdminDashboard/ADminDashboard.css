@@ -1,0 +1,23 @@
+.adminGridLayer {
+  display: grid;
+  height: 97vh;
+  width: 97%;
+  padding: 10px;
+  overflow: hidden;
+  grid-template-columns: 11rem auto 10rem;
+}
+
+.sidebar {
+}
+
+.centerPart {
+  padding: 20px;
+}
+
+.endPart {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  padding: 20px;
+}
